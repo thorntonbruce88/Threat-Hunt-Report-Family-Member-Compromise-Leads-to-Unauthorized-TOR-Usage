@@ -1,0 +1,6 @@
+﻿Timestamp,DeviceName,InitiatingProcessAccountName,ActionType,RemoteIP,RemotePort,RemoteUrl,InitiatingProcessFileName,InitiatingProcessFolderPath
+"Oct 20, 2025 4:52:32 PM",win11vmbruce,threathunt,ConnectionSuccess,66.111.2.16,9001,,tor.exe,c:\users\threathunt\desktop\tor browser\browser\torbrowser\tor\tor.exe
+"Oct 20, 2025 4:52:33 PM",win11vmbruce,threathunt,ConnectionSuccess,66.111.2.16,9001,https://www.zsh67ng4fgodd.com,tor.exe,c:\users\threathunt\desktop\tor browser\browser\torbrowser\tor\tor.exe
+"Oct 20, 2025 4:52:33 PM",win11vmbruce,threathunt,ConnectionSuccess,37.120.168.158,9001,,tor.exe,c:\users\threathunt\desktop\tor browser\browser\torbrowser\tor\tor.exe
+"Oct 20, 2025 4:52:34 PM",win11vmbruce,threathunt,ConnectionSuccess,37.120.168.158,9001,https://www.kfddy6y7iwlupfrt56hql.com,tor.exe,c:\users\threathunt\desktop\tor browser\browser\torbrowser\tor\tor.exe
+"Oct 20, 2025 4:52:39 PM",win11vmbruce,threathunt,ConnectionSuccess,127.0.0.1,9150,,firefox.exe,c:\users\threathunt\desktop\tor browser\browser\firefox.exe
