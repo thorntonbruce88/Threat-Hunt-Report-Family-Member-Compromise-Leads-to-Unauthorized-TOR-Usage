@@ -38,6 +38,62 @@
   </g>
 </svg>
 
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="320" viewBox="0 0 1280 320" role="img" aria-label="Flat programmer illustration">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#041b2d"/>
+      <stop offset="1" stop-color="#072b3b"/>
+    </linearGradient>
+    <linearGradient id="monitorGrad" x1="0" x2="1">
+      <stop offset="0" stop-color="#0ea5e9"/>
+      <stop offset="1" stop-color="#7c3aed"/>
+    </linearGradient>
+  </defs>
+
+  <!-- background -->
+  <rect width="100%" height="100%" fill="url(#bg)"/>
+
+  <!-- desk -->
+  <rect x="160" y="220" width="960" height="18" rx="4" fill="#0b1220" opacity="0.9"/>
+  <rect x="260" y="238" width="760" height="10" rx="4" fill="#0b1220" opacity="0.8"/>
+
+  <!-- monitor -->
+  <g transform="translate(360,40)">
+    <rect x="0" y="0" width="420" height="220" rx="12" fill="#0a1420" stroke="#0f1724" stroke-width="2"/>
+    <rect x="14" y="18" width="392" height="152" rx="8" fill="url(#monitorGrad)"/>
+    <!-- code lines -->
+    <g fill="#071628" opacity="0.9">
+      <rect x="30" y="36" width="320" height="12" rx="6" fill="#ffffff" opacity="0.12"/>
+      <rect x="30" y="58" width="240" height="12" rx="6" fill="#ffffff" opacity="0.08"/>
+      <rect x="30" y="80" width="360" height="12" rx="6" fill="#ffffff" opacity="0.1"/>
+      <rect x="30" y="102" width="160" height="12" rx="6" fill="#ffffff" opacity="0.07"/>
+    </g>
+    <!-- monitor stand -->
+    <rect x="180" y="176" width="60" height="12" rx="4" fill="#0b1220"/>
+    <rect x="200" y="188" width="20" height="24" rx="4" fill="#0b1220"/>
+  </g>
+
+  <!-- person -->
+  <g transform="translate(220,72)">
+    <!-- head -->
+    <circle cx="80" cy="64" r="36" fill="#ffd8b5"/>
+    <!-- hair -->
+    <path d="M44,64 C50,40 110,42 120,64 C85,48 60,54 44,64 Z" fill="#1f2937"/>
+    <!-- body -->
+    <rect x="32" y="96" width="96" height="68" rx="12" fill="#153243"/>
+    <!-- arms -->
+    <rect x="10" y="98" width="26" height="16" rx="8" fill="#153243" transform="rotate(-12 23 106)"/>
+    <rect x="130" y="98" width="26" height="16" rx="8" fill="#153243" transform="rotate(12 143 106)"/>
+    <!-- laptop / keyboard in front -->
+    <rect x="128" y="170" width="420" height="12" rx="6" fill="#081221"/>
+  </g>
+
+  <!-- small caption -->
+  <g transform="translate(820,40)">
+    <text x="0" y="0" fill="#cfeafe" font-family="Segoe UI, Roboto, Arial" font-size="24" font-weight="600">Developer at work</text>
+    <text x="0" y="28" fill="#94a3b8" font-family="Segoe UI, Roboto, Arial" font-size="13">Original flat SVG, safe for README use</text>
+  </g>
+</svg>
 
 # Threat-Hunt-Report-Family-Member-Compromise-Leads-to-Unauthorized-TOR-Usage
 Detection of Unauthorized TOR Browser Installation and Use on Workstation: win11vmbruce
